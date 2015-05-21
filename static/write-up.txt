@@ -1,0 +1,24 @@
+<p>
+<h4>Summary</h4>
+Utilizing the rich set of data on crime that the City of Denver makes available, this project aims to visualize the temporal and geospatial nature of the data to aid the interested viewer to explore the data more effectively. By allowing the user to subset the incidents by crime category and reshape the data according to different temporal units, this app makes it easier to answer questions such as:
+<br><br>
+<ul>
+    <li>What time of day is robbery most likely to occur?</li>
+    <li>How are car thefts distributed across the city?</li>
+</ul>
+Whether the user is a policymaker, law enforcement agent, or interested citizen, the Denver Crime Map provides a simple tool for uncovering patterns in Denver crime.
+<br><br>
+
+<h4>Data</h4>
+Data was downloaded from the City of Denver website (see footer) in ESRI File Geodatabase (FileGDB) format. The data includes only crimes committed within the City and County of Denver. Incident dates (FIRST_OCCURRENCE), latitude and longitude, and crime category for the month of March 2015 were extracted and converted to GeoJSON using <a href="http://www.qgis.org/en/site/">QGIS</a>. Finally, the data was converted to TopoJSON format to maximize performance using <a href="http://www.gdal.org/">GDAL</a>.
+<br><br>
+In addition, the Denver Crime Map utilizes the following technologies:
+<br>
+<ul>
+    <li><a href="http://leafletjs.com/">leaflet.js</a></li>
+    <li><a href="http://www.patrick-wied.at/static/heatmapjs/">heatmap.js</a></li>
+    <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+    <li><a href="http://d3js.org/">D3.js</a></li>
+    <li><a href="https://jquery.com/">JQuery</a></li>
+</ul>
+</p>
